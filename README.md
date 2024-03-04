@@ -1,4 +1,4 @@
-# js-image-generator
+# npm-image-generator
 
 This is a node module for generating random images.
 
@@ -12,14 +12,14 @@ Uses the jpeg-js library: https://github.com/eugeneware/jpeg-js
 
 ## Installation
 ```bash
-npm install js-image-generator
+npm i npm-image-generator
 ```
 
 ## Example Usage
 
 ```js
 var fs = require('fs');
-var imgGen = require('js-image-generator');
+var imgGen = require('npm-image-generator');
 
 // Generate one image
 imgGen.generateImage(800, 600, 80, function(err, image) {
